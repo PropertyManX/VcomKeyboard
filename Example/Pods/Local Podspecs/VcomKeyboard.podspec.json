@@ -1,0 +1,22 @@
+{
+  "name": "VcomKeyboard",
+  "version": "0.1.0",
+  "summary": "A short description of VcomKeyboard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PropertyManX/VcomKeyboard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PropertyManX": "yinning@zzcom.com"
+  },
+  "source": {
+    "git": "https://github.com/PropertyManX/VcomKeyboard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VcomKeyboard/Classes/**/*"
+}

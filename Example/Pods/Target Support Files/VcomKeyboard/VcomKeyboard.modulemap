@@ -1,0 +1,6 @@
+framework module VcomKeyboard {
+  umbrella header "VcomKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
