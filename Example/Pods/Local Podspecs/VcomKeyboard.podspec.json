@@ -1,7 +1,7 @@
 {
   "name": "VcomKeyboard",
   "version": "0.1.0",
-  "summary": "A short description of VcomKeyboard.",
+  "summary": "这事一个测试库啊",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/PropertyManX/VcomKeyboard",
   "license": {
@@ -18,5 +18,12 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "VcomKeyboard/Classes/**/*"
+  "swift_versions": "4.0",
+  "source_files": "VcomKeyboard/Classes/**/*",
+  "resource_bundles": {
+    "VcomKeyboard": [
+      "VcomKeyboard/Assets/Keyboard.bundle"
+    ]
+  },
+  "swift_version": "4.0"
 }

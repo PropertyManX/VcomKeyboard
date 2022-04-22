@@ -7,160 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07643A152410A222A737F2E0A3D3119E /* button_backspace_delete@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0C6320D9489F777912A48B9DD5ABC121 /* button_backspace_delete@3x.png */; };
-		0A940E35EBF04327744BBE660E87E115 /* keyboard_safe@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2D76C8B7632F81F821759A3D03CCFE41 /* keyboard_safe@2x.png */; };
-		0C3870FA7C02E53D7C00FE146D175EDB /* button_keyboard_shouqi@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CAFCD789983AC86B69EB839A9F1A4 /* button_keyboard_shouqi@2x.png */; };
-		1B4D2E3A337DAAA584CC758C8A3E2CE9 /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A05EE23A348A622881267E685122CF /* KeyboardButton.swift */; };
+		02C985DD3611CDE95B88C649FB77B08D /* ASCIIKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246CB70354E7AEB5227594430D079C7E /* ASCIIKeyboard.swift */; };
+		0F63536EB2E11B7967D9911EF35FF037 /* KeyboardDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3ABE5955A0EAE5FDAB78C5D8C9194 /* KeyboardDefine.swift */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2367D406F888D1AD6C342B67768B9DCB /* VcomKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAEE72BE78CA37894461EC436ADF5A4 /* VcomKeyboard-dummy.m */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		2AFC88FDE972F3212B6ED35E76380D4A /* CustomKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA9C693F53B7646C7B1810F86E3DA84 /* CustomKeyboardView.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B966EAE7DE10D7172567E26CCEF1D99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		2EE809211C5B7406F789BA6A7344E23F /* UIResponder+EMFirstResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 952A7D53552269B990825D6CB60524C5 /* UIResponder+EMFirstResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		36EB19684E344A40A4307527B018E62A /* UIColor+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E85764D813E6FB2FFC9E80FE00014B0 /* UIColor+Keyboard.swift */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		466D9DBBC58AF3CBF62F964E3A63CD76 /* CH_EN_icon_sel@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = AAFA809EA53382B857B549BA1D050ECE /* CH_EN_icon_sel@3x.png */; };
-		4E851125D66B3E50149D2D680C8077D0 /* SymbolKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19DD497883B06DEB7933654738D81E1 /* SymbolKeyboard.swift */; };
-		53C5588B439509EB81E887FD4905B8D2 /* VcomKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B36A07EBDB4BC93E11013B2B8EEB82 /* VcomKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58AD6650A832B244660DDD31B02BABC2 /* UIColor+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E3773D8F9C600F82AC4CBBB75818E /* UIColor+Keyboard.swift */; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		640E45D0C0E0505621CC56E2D351B3D8 /* UIResponder+EMFirstResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A83408780FDCA5CBE2C9DB1CFA7EB4 /* UIResponder+EMFirstResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		68F6F76A951EAE870383843322C7F5AA /* ASCIIKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB31582B84F69EEFD0767230C79005 /* ASCIIKeyboard.swift */; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		74BB7675A02DF98E50D9F3C2CAA79587 /* CustomKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC18F69A2E20336E075FEA7C805F7DC5 /* CustomKeyboardView.swift */; };
+		74828C532BDA22CC183234B07B7AA4B3 /* WebNumberKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B810A0865BC1C1759CAAC238AD269F4 /* WebNumberKeyboard.swift */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		7E19D1FBFF8433636029EE48031C7583 /* Pods-VcomKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9DAC7F15F43830F76AB91FF18E746 /* Pods-VcomKeyboard_Tests-dummy.m */; };
+		7F472894D84D24E03129A47CD3B2941C /* UIResponder+EMFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571FBCAD928C424FF91111AC0762F30 /* UIResponder+EMFirstResponder.m */; };
 		845E934E127A0F0F51E249F6DA0AFD5B /* Pods-VcomKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9EC672807E76A17BDCD1E45EF5CC6C /* Pods-VcomKeyboard_Example-dummy.m */; };
-		84F4CF35BD8D0619F13025166BCA7C73 /* UIImage+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B16298DF291EB8BFDF03D87853BE9 /* UIImage+Keyboard.swift */; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		988F16FB0D8FF92A2844EF7E24C7CE7E /* UIImage+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E317B2204374B7B77C04A290608037 /* UIImage+Keyboard.swift */; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		9FC8C68CF708E15E0E283368A5C7352B /* VcomKeyboard-VcomKeyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AC5952AF58112A164C7D89EBC42EA75 /* VcomKeyboard-VcomKeyboard */; };
 		A3968FF0F9ED83A94E531868714FA71F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		A6F5593101A7BA4648039A29E505D61D /* CH_EN_icon_unsel@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D97F6B81003983A10F5C693BA8C07CE8 /* CH_EN_icon_unsel@2x.png */; };
 		AA01336E0D87BB367B395259F7735B49 /* Pods-VcomKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4DD97942BDA8BD701D6DDF2F300D98 /* Pods-VcomKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B45D3F6C655FFF0919692CB97A3EE1F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		B4D020A7F8284F67FB64E4866341F283 /* VcomKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B481FA39B699F427769610C7A0E1A9B0 /* VcomKeyboard-dummy.m */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		B6CD50E6E2A6A710F36CCA19F24BF732 /* CH_EN_icon_sel@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 77853A5DD61D1FE841515031C532FE38 /* CH_EN_icon_sel@2x.png */; };
+		BE60E486D514FD39E650A8C31A1BEA13 /* SymbolKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAE700ACDF719511D6F4C6E4C8BC6B /* SymbolKeyboard.swift */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		CF3B9D8391E62E30712F25C49E55FFED /* button_keyboard_shouqi@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 9B068754FDB291A1C7E83CF615295BA7 /* button_keyboard_shouqi@3x.png */; };
-		D83921F6E3365A6951C9E389FA95E945 /* CH_EN_icon_unsel@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C189C2EE45E8DC59C4B21434C2673 /* CH_EN_icon_unsel@3x.png */; };
+		D49B5C099042B0E20658202C4252E75D /* Keyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7C0DB818B4FB04607B57A4AF671006C /* Keyboard.bundle */; };
 		DF4B91500F1E696BA1DF69A37E01176C /* Pods-VcomKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C62AE1F18F3052A4909E4ECB78BEA2 /* Pods-VcomKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E31949E7DD649FE4EBEADA1AF81C4713 /* KeyboardDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FFC993DDC17813C92FE2A3DB0822F0 /* KeyboardDefine.swift */; };
-		EC09B95943A5EBEBA28805AFB001F8CD /* WebNumberKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B951DB4F282638831F415DD1E15E3767 /* WebNumberKeyboard.swift */; };
-		ED19E01C3782929C0607A32A6E2E1970 /* UIResponder+EMFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 838C766F6A102F45E349305EBCB8E387 /* UIResponder+EMFirstResponder.m */; };
-		EDA93A37D7F3915568D61DDEF14986CC /* NumberKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC975C5664C4640B63BD55E64ECD776 /* NumberKeyboard.swift */; };
-		F6D86A9607BC53E7901A1E64E1B1220C /* button_backspace_delete@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 916A55445110F0F1BCE645DDD0B3BBFC /* button_backspace_delete@2x.png */; };
-		F9F2C7A33F6608182BA1393BA4AF33D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		EEE629A371DEB59A63168C23E84E048D /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95918FD33326BFA35A201FF57D578469 /* KeyboardButton.swift */; };
+		FE2266D292DAB106B34B4DAF71F4CFC6 /* VcomKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8991F8787DEDC022E9B01B84EA3264E /* VcomKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3A05DF3F42D252B2F6DD88F457C66E /* NumberKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED24FF2B6F493E877F4FB7F4170F57D /* NumberKeyboard.swift */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		87AF3867958400229FBE4A39B886B188 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE56409E2A424BA64A90ECB7366CB620;
-			remoteInfo = "Pods-VcomKeyboard_Example";
-		};
-		9CDD1DEF5AC05F209430CEC2904EBC9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		9FB1E58201E10F5F667C7D3EF107DCC6 /* PBXContainerItemProxy */ = {
+		13ACB118C4B847DBF4239E7487399DB6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7CE178C6A5E13DE1D7C2B0162399E1FE;
 			remoteInfo = VcomKeyboard;
 		};
+		8D63AEEDFAD6765B44A9EE84D82BB37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA32A49FD8DCF7CE304F7DBB9E36D6C;
+			remoteInfo = "VcomKeyboard-VcomKeyboard";
+		};
+		D01A2E6E487FF3939A84F1BD64E6051B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		F17BE0301D84C0BA1B662889380DE059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE56409E2A424BA64A90ECB7366CB620;
+			remoteInfo = "Pods-VcomKeyboard_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05DA7DE7E6B4E28F73F0DAFA214DF1FE /* Pods-VcomKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VcomKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
-		0C6320D9489F777912A48B9DD5ABC121 /* button_backspace_delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "button_backspace_delete@3x.png"; sourceTree = "<group>"; };
+		0B810A0865BC1C1759CAAC238AD269F4 /* WebNumberKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebNumberKeyboard.swift; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		17C62AE1F18F3052A4909E4ECB78BEA2 /* Pods-VcomKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VcomKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
 		18A9DAC7F15F43830F76AB91FF18E746 /* Pods-VcomKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VcomKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
-		1A1B16298DF291EB8BFDF03D87853BE9 /* UIImage+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Keyboard.swift"; path = "VcomKeyboard/Classes/CustomKeyboard/UIImage+Keyboard.swift"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1CD3ABE5955A0EAE5FDAB78C5D8C9194 /* KeyboardDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDefine.swift; path = VcomKeyboard/Classes/CustomKeyboard/KeyboardDefine.swift; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1E85764D813E6FB2FFC9E80FE00014B0 /* UIColor+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Keyboard.swift"; path = "VcomKeyboard/Classes/CustomKeyboard/UIColor+Keyboard.swift"; sourceTree = "<group>"; };
 		204DB2BAC97EF074661716E074266750 /* Pods-VcomKeyboard_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VcomKeyboard_Tests"; path = Pods_VcomKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20EB31582B84F69EEFD0767230C79005 /* ASCIIKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASCIIKeyboard.swift; path = VcomKeyboard/Classes/CustomKeyboard/ASCIIKeyboard.swift; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		246CB70354E7AEB5227594430D079C7E /* ASCIIKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASCIIKeyboard.swift; path = VcomKeyboard/Classes/CustomKeyboard/ASCIIKeyboard.swift; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2ADAE700ACDF719511D6F4C6E4C8BC6B /* SymbolKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolKeyboard.swift; path = VcomKeyboard/Classes/CustomKeyboard/SymbolKeyboard.swift; sourceTree = "<group>"; };
 		2C4DD97942BDA8BD701D6DDF2F300D98 /* Pods-VcomKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VcomKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2D1CAFCD789983AC86B69EB839A9F1A4 /* button_keyboard_shouqi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "button_keyboard_shouqi@2x.png"; sourceTree = "<group>"; };
-		2D76C8B7632F81F821759A3D03CCFE41 /* keyboard_safe@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "keyboard_safe@2x.png"; sourceTree = "<group>"; };
+		2ED24FF2B6F493E877F4FB7F4170F57D /* NumberKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberKeyboard.swift; path = VcomKeyboard/Classes/CustomKeyboard/NumberKeyboard.swift; sourceTree = "<group>"; };
+		2EF538284E99A97F07DCA41AA6DB1202 /* VcomKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VcomKeyboard.modulemap; sourceTree = "<group>"; };
+		2F883620AE75E9BB8BA78A9AC3DB3644 /* VcomKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VcomKeyboard.release.xcconfig; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		35C6C775C8293B92135D174A057C02F1 /* Pods-VcomKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VcomKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		37E422466D049B5E6828283413BDD4C0 /* ResourceBundle-VcomKeyboard-VcomKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VcomKeyboard-VcomKeyboard-Info.plist"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		3F6C189C2EE45E8DC59C4B21434C2673 /* CH_EN_icon_unsel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CH_EN_icon_unsel@3x.png"; sourceTree = "<group>"; };
-		40A05EE23A348A622881267E685122CF /* KeyboardButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardButton.swift; path = VcomKeyboard/Classes/CustomKeyboard/KeyboardButton.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		4F05C0364F1F2E4B97B0D8C860E7479E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC975C5664C4640B63BD55E64ECD776 /* NumberKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberKeyboard.swift; path = VcomKeyboard/Classes/CustomKeyboard/NumberKeyboard.swift; sourceTree = "<group>"; };
-		61B2AA71937355C1FB894C06CEEE3C99 /* VcomKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VcomKeyboard.modulemap; sourceTree = "<group>"; };
+		5D2C7D6383EB0695FD739C8101C9F4CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		6571FBCAD928C424FF91111AC0762F30 /* UIResponder+EMFirstResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+EMFirstResponder.m"; path = "VcomKeyboard/Classes/CustomKeyboard/UIResponder+EMFirstResponder.m"; sourceTree = "<group>"; };
 		68838CEFEF8D759DEA6F5C606E4EEBE0 /* Pods-VcomKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VcomKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6AC5952AF58112A164C7D89EBC42EA75 /* VcomKeyboard-VcomKeyboard */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "VcomKeyboard-VcomKeyboard"; path = VcomKeyboard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBD00E6A07C3228E12EF76102991630 /* VcomKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VcomKeyboard-prefix.pch"; sourceTree = "<group>"; };
 		72669C65071740CF544638AE1AC85AC1 /* Pods-VcomKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VcomKeyboard_Example.modulemap"; sourceTree = "<group>"; };
-		77853A5DD61D1FE841515031C532FE38 /* CH_EN_icon_sel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CH_EN_icon_sel@2x.png"; sourceTree = "<group>"; };
 		77A9944E5C01312DD5BB1F38CD73A191 /* Pods-VcomKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VcomKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		78E317B2204374B7B77C04A290608037 /* UIImage+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Keyboard.swift"; path = "VcomKeyboard/Classes/CustomKeyboard/UIImage+Keyboard.swift"; sourceTree = "<group>"; };
 		7DB3B36860B6C898FE3EB4953B2526F4 /* Pods-VcomKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VcomKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		838C766F6A102F45E349305EBCB8E387 /* UIResponder+EMFirstResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+EMFirstResponder.m"; path = "VcomKeyboard/Classes/CustomKeyboard/UIResponder+EMFirstResponder.m"; sourceTree = "<group>"; };
-		84A83408780FDCA5CBE2C9DB1CFA7EB4 /* UIResponder+EMFirstResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+EMFirstResponder.h"; path = "VcomKeyboard/Classes/CustomKeyboard/UIResponder+EMFirstResponder.h"; sourceTree = "<group>"; };
 		87E46DC47F58087FEE4D6B3E7CC58D6E /* Pods-VcomKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VcomKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8AF608C9CF79F0EF450BBA5484616463 /* Pods-VcomKeyboard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VcomKeyboard_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		916A55445110F0F1BCE645DDD0B3BBFC /* button_backspace_delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "button_backspace_delete@2x.png"; sourceTree = "<group>"; };
+		934E3773D8F9C600F82AC4CBBB75818E /* UIColor+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Keyboard.swift"; path = "VcomKeyboard/Classes/CustomKeyboard/UIColor+Keyboard.swift"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		952A7D53552269B990825D6CB60524C5 /* UIResponder+EMFirstResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+EMFirstResponder.h"; path = "VcomKeyboard/Classes/CustomKeyboard/UIResponder+EMFirstResponder.h"; sourceTree = "<group>"; };
 		953BF6B98997E1B207BBA183AA7CE073 /* Pods-VcomKeyboard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VcomKeyboard_Example-Info.plist"; sourceTree = "<group>"; };
+		95918FD33326BFA35A201FF57D578469 /* KeyboardButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardButton.swift; path = VcomKeyboard/Classes/CustomKeyboard/KeyboardButton.swift; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		96D173F2AF8BA4C16ED388F9A8652FFD /* VcomKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VcomKeyboard-Info.plist"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9B068754FDB291A1C7E83CF615295BA7 /* button_keyboard_shouqi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "button_keyboard_shouqi@3x.png"; sourceTree = "<group>"; };
 		9C7E347F2F87CA53F6E223A7A5091152 /* VcomKeyboard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VcomKeyboard; path = VcomKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EAE16BA920DCD44CADFD08A416141F6 /* VcomKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VcomKeyboard.debug.xcconfig; sourceTree = "<group>"; };
+		A0879B81D67A30A4CD75AD3BB751301A /* VcomKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VcomKeyboard.debug.xcconfig; sourceTree = "<group>"; };
 		A21D694E68C89B74BDF809ED8D3216D0 /* Pods-VcomKeyboard_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VcomKeyboard_Example"; path = Pods_VcomKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAFA809EA53382B857B549BA1D050ECE /* CH_EN_icon_sel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CH_EN_icon_sel@3x.png"; sourceTree = "<group>"; };
-		AB9A05C71FD379A162C208A6D96012B0 /* VcomKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VcomKeyboard.release.xcconfig; sourceTree = "<group>"; };
+		A7C0DB818B4FB04607B57A4AF671006C /* Keyboard.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Keyboard.bundle; path = VcomKeyboard/Assets/Keyboard.bundle; sourceTree = "<group>"; };
 		AD10E20F91E2A9B7FB0989E2A9791136 /* Pods-VcomKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VcomKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD216E0DC4A7E9906B5E0BC8D2F45D0B /* Pods-VcomKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VcomKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B481FA39B699F427769610C7A0E1A9B0 /* VcomKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VcomKeyboard-dummy.m"; sourceTree = "<group>"; };
 		B554D978BF740C91550073D9D35F191F /* Pods-VcomKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VcomKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		B844295807A10C4338613564DCE782F3 /* VcomKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VcomKeyboard-prefix.pch"; sourceTree = "<group>"; };
-		B951DB4F282638831F415DD1E15E3767 /* WebNumberKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebNumberKeyboard.swift; sourceTree = "<group>"; };
-		BDC4E1C27B164EE80838AAF632CAD8BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C436563EBE0A6B4F27AD7EB9B2593E1D /* VcomKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VcomKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8991F8787DEDC022E9B01B84EA3264E /* VcomKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VcomKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		B8ECFA0E1A4292FC00D8C5A381DA26DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BBAEE72BE78CA37894461EC436ADF5A4 /* VcomKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VcomKeyboard-dummy.m"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		D97F6B81003983A10F5C693BA8C07CE8 /* CH_EN_icon_unsel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "CH_EN_icon_unsel@2x.png"; sourceTree = "<group>"; };
-		E4FFC993DDC17813C92FE2A3DB0822F0 /* KeyboardDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDefine.swift; path = VcomKeyboard/Classes/CustomKeyboard/KeyboardDefine.swift; sourceTree = "<group>"; };
+		E1A9CC28E76EDEA73FDA50FABB2B1D13 /* VcomKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VcomKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2F7949023C0407D87E53420D0C46185 /* VcomKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VcomKeyboard-Info.plist"; sourceTree = "<group>"; };
 		E55192E29658CBDB1768089FD6C7C5AA /* Pods-VcomKeyboard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VcomKeyboard_Tests-Info.plist"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EC18F69A2E20336E075FEA7C805F7DC5 /* CustomKeyboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomKeyboardView.swift; path = VcomKeyboard/Classes/CustomKeyboard/CustomKeyboardView.swift; sourceTree = "<group>"; };
 		ECCA5163A60AFC09D0B8A68B42D1438D /* Pods-VcomKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VcomKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F19DD497883B06DEB7933654738D81E1 /* SymbolKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolKeyboard.swift; path = VcomKeyboard/Classes/CustomKeyboard/SymbolKeyboard.swift; sourceTree = "<group>"; };
-		F3B36A07EBDB4BC93E11013B2B8EEB82 /* VcomKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VcomKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		FCA9C693F53B7646C7B1810F86E3DA84 /* CustomKeyboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomKeyboardView.swift; path = VcomKeyboard/Classes/CustomKeyboard/CustomKeyboardView.swift; sourceTree = "<group>"; };
 		FE9EC672807E76A17BDCD1E45EF5CC6C /* Pods-VcomKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VcomKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,19 +168,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71AFEE6902FF9422A075122C919C0167 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9F2C7A33F6608182BA1393BA4AF33D1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		73A0E9090099B4807A1DC5AED515201B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B45D3F6C655FFF0919692CB97A3EE1F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD761B8356F50EB674D4605C7E4F3A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +191,14 @@
 				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
 				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
 				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B2A23E5A04B59700FCF6983105F266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B966EAE7DE10D7172567E26CCEF1D99 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +225,7 @@
 		38702CD94F8913F41CFF4F9FBF6BFFAB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C8E335B3B877FC0B4868BF4037564A4F /* VcomKeyboard */,
+				A2D6C543E8B57D2BBDBA4EC62711EE4F /* VcomKeyboard */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -250,23 +251,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		510ED8F89102D0BD0FE6D1E9B4E5B47D /* Keyboard.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				916A55445110F0F1BCE645DDD0B3BBFC /* button_backspace_delete@2x.png */,
-				0C6320D9489F777912A48B9DD5ABC121 /* button_backspace_delete@3x.png */,
-				2D1CAFCD789983AC86B69EB839A9F1A4 /* button_keyboard_shouqi@2x.png */,
-				9B068754FDB291A1C7E83CF615295BA7 /* button_keyboard_shouqi@3x.png */,
-				77853A5DD61D1FE841515031C532FE38 /* CH_EN_icon_sel@2x.png */,
-				AAFA809EA53382B857B549BA1D050ECE /* CH_EN_icon_sel@3x.png */,
-				D97F6B81003983A10F5C693BA8C07CE8 /* CH_EN_icon_unsel@2x.png */,
-				3F6C189C2EE45E8DC59C4B21434C2673 /* CH_EN_icon_unsel@3x.png */,
-				2D76C8B7632F81F821759A3D03CCFE41 /* keyboard_safe@2x.png */,
-			);
-			name = Keyboard.bundle;
-			path = VcomKeyboard/Classes/CustomKeyboard/Keyboard.bundle;
-			sourceTree = "<group>";
-		};
 		5B8B365835D8D3EABD1AD3F1AA57BA0E /* Pods-VcomKeyboard_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,16 +268,17 @@
 			path = "Target Support Files/Pods-VcomKeyboard_Tests";
 			sourceTree = "<group>";
 		};
-		84EB64F70B3A4409634763FA122FEA79 /* Support Files */ = {
+		657850878251292853E00BECD4EFF1BE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				61B2AA71937355C1FB894C06CEEE3C99 /* VcomKeyboard.modulemap */,
-				B481FA39B699F427769610C7A0E1A9B0 /* VcomKeyboard-dummy.m */,
-				96D173F2AF8BA4C16ED388F9A8652FFD /* VcomKeyboard-Info.plist */,
-				B844295807A10C4338613564DCE782F3 /* VcomKeyboard-prefix.pch */,
-				F3B36A07EBDB4BC93E11013B2B8EEB82 /* VcomKeyboard-umbrella.h */,
-				9EAE16BA920DCD44CADFD08A416141F6 /* VcomKeyboard.debug.xcconfig */,
-				AB9A05C71FD379A162C208A6D96012B0 /* VcomKeyboard.release.xcconfig */,
+				37E422466D049B5E6828283413BDD4C0 /* ResourceBundle-VcomKeyboard-VcomKeyboard-Info.plist */,
+				2EF538284E99A97F07DCA41AA6DB1202 /* VcomKeyboard.modulemap */,
+				BBAEE72BE78CA37894461EC436ADF5A4 /* VcomKeyboard-dummy.m */,
+				E2F7949023C0407D87E53420D0C46185 /* VcomKeyboard-Info.plist */,
+				6EBD00E6A07C3228E12EF76102991630 /* VcomKeyboard-prefix.pch */,
+				B8991F8787DEDC022E9B01B84EA3264E /* VcomKeyboard-umbrella.h */,
+				A0879B81D67A30A4CD75AD3BB751301A /* VcomKeyboard.debug.xcconfig */,
+				2F883620AE75E9BB8BA78A9AC3DB3644 /* VcomKeyboard.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/VcomKeyboard";
@@ -305,6 +290,38 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A2D6C543E8B57D2BBDBA4EC62711EE4F /* VcomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				246CB70354E7AEB5227594430D079C7E /* ASCIIKeyboard.swift */,
+				FCA9C693F53B7646C7B1810F86E3DA84 /* CustomKeyboardView.swift */,
+				A7C0DB818B4FB04607B57A4AF671006C /* Keyboard.bundle */,
+				95918FD33326BFA35A201FF57D578469 /* KeyboardButton.swift */,
+				1CD3ABE5955A0EAE5FDAB78C5D8C9194 /* KeyboardDefine.swift */,
+				2ED24FF2B6F493E877F4FB7F4170F57D /* NumberKeyboard.swift */,
+				2ADAE700ACDF719511D6F4C6E4C8BC6B /* SymbolKeyboard.swift */,
+				934E3773D8F9C600F82AC4CBBB75818E /* UIColor+Keyboard.swift */,
+				78E317B2204374B7B77C04A290608037 /* UIImage+Keyboard.swift */,
+				952A7D53552269B990825D6CB60524C5 /* UIResponder+EMFirstResponder.h */,
+				6571FBCAD928C424FF91111AC0762F30 /* UIResponder+EMFirstResponder.m */,
+				A495B3553AD236641BCD0054FFAA5A34 /* Pod */,
+				657850878251292853E00BECD4EFF1BE /* Support Files */,
+				EDEC6F66D0AB32025396EB0EB6417350 /* Web */,
+			);
+			name = VcomKeyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A495B3553AD236641BCD0054FFAA5A34 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B8ECFA0E1A4292FC00D8C5A381DA26DE /* LICENSE */,
+				5D2C7D6383EB0695FD739C8101C9F4CA /* README.md */,
+				E1A9CC28E76EDEA73FDA50FABB2B1D13 /* VcomKeyboard.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -330,6 +347,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC2A54D328FA308062F02F044EA3863E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				A21D694E68C89B74BDF809ED8D3216D0 /* Pods-VcomKeyboard_Example */,
+				204DB2BAC97EF074661716E074266750 /* Pods-VcomKeyboard_Tests */,
+				9C7E347F2F87CA53F6E223A7A5091152 /* VcomKeyboard */,
+				6AC5952AF58112A164C7D89EBC42EA75 /* VcomKeyboard-VcomKeyboard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,16 +370,6 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		C10D1D08371C9D0FBE8BC5301778C580 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4F05C0364F1F2E4B97B0D8C860E7479E /* LICENSE */,
-				BDC4E1C27B164EE80838AAF632CAD8BE /* README.md */,
-				C436563EBE0A6B4F27AD7EB9B2593E1D /* VcomKeyboard.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		C25C3AF15B24391DA244D2E797A4051E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,28 +379,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C8E335B3B877FC0B4868BF4037564A4F /* VcomKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				20EB31582B84F69EEFD0767230C79005 /* ASCIIKeyboard.swift */,
-				EC18F69A2E20336E075FEA7C805F7DC5 /* CustomKeyboardView.swift */,
-				40A05EE23A348A622881267E685122CF /* KeyboardButton.swift */,
-				E4FFC993DDC17813C92FE2A3DB0822F0 /* KeyboardDefine.swift */,
-				5EC975C5664C4640B63BD55E64ECD776 /* NumberKeyboard.swift */,
-				F19DD497883B06DEB7933654738D81E1 /* SymbolKeyboard.swift */,
-				1E85764D813E6FB2FFC9E80FE00014B0 /* UIColor+Keyboard.swift */,
-				1A1B16298DF291EB8BFDF03D87853BE9 /* UIImage+Keyboard.swift */,
-				84A83408780FDCA5CBE2C9DB1CFA7EB4 /* UIResponder+EMFirstResponder.h */,
-				838C766F6A102F45E349305EBCB8E387 /* UIResponder+EMFirstResponder.m */,
-				510ED8F89102D0BD0FE6D1E9B4E5B47D /* Keyboard.bundle */,
-				C10D1D08371C9D0FBE8BC5301778C580 /* Pod */,
-				84EB64F70B3A4409634763FA122FEA79 /* Support Files */,
-				D13F0EF302EDC66F8240E54BFC6A691F /* Web */,
-			);
-			name = VcomKeyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -389,29 +386,9 @@
 				38702CD94F8913F41CFF4F9FBF6BFFAB /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				E30F21A72AA65D077585AB5C0CF192B2 /* Products */,
+				BC2A54D328FA308062F02F044EA3863E /* Products */,
 				C25C3AF15B24391DA244D2E797A4051E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D13F0EF302EDC66F8240E54BFC6A691F /* Web */ = {
-			isa = PBXGroup;
-			children = (
-				B951DB4F282638831F415DD1E15E3767 /* WebNumberKeyboard.swift */,
-			);
-			name = Web;
-			path = VcomKeyboard/Classes/CustomKeyboard/Web;
-			sourceTree = "<group>";
-		};
-		E30F21A72AA65D077585AB5C0CF192B2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
-				A21D694E68C89B74BDF809ED8D3216D0 /* Pods-VcomKeyboard_Example */,
-				204DB2BAC97EF074661716E074266750 /* Pods-VcomKeyboard_Tests */,
-				9C7E347F2F87CA53F6E223A7A5091152 /* VcomKeyboard */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -420,6 +397,15 @@
 				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDEC6F66D0AB32025396EB0EB6417350 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				0B810A0865BC1C1759CAAC238AD269F4 /* WebNumberKeyboard.swift */,
+			);
+			name = Web;
+			path = VcomKeyboard/Classes/CustomKeyboard/Web;
 			sourceTree = "<group>";
 		};
 		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
@@ -436,12 +422,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		35ED40E4506C9B8638907172E58D2C88 /* Headers */ = {
+		6367D173FE0946D978EA34107F67CC30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				640E45D0C0E0505621CC56E2D351B3D8 /* UIResponder+EMFirstResponder.h in Headers */,
-				53C5588B439509EB81E887FD4905B8D2 /* VcomKeyboard-umbrella.h in Headers */,
+				2EE809211C5B7406F789BA6A7344E23F /* UIResponder+EMFirstResponder.h in Headers */,
+				FE2266D292DAB106B34B4DAF71F4CFC6 /* VcomKeyboard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,26 +477,44 @@
 			buildRules = (
 			);
 			dependencies = (
-				9EDB40358F0D30AB4E122C773AF24BBE /* PBXTargetDependency */,
-				68FB654142F1B2148D8FB5543AEB6EEE /* PBXTargetDependency */,
+				56AF85C975C0BA59E16C17B5D859DF89 /* PBXTargetDependency */,
+				02E8E0E21A439E8692122F82CBB575EC /* PBXTargetDependency */,
 			);
 			name = "Pods-VcomKeyboard_Tests";
 			productName = Pods_VcomKeyboard_Tests;
 			productReference = 204DB2BAC97EF074661716E074266750 /* Pods-VcomKeyboard_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
-		7CE178C6A5E13DE1D7C2B0162399E1FE /* VcomKeyboard */ = {
+		5AA32A49FD8DCF7CE304F7DBB9E36D6C /* VcomKeyboard-VcomKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DE171A7232D4F28E3A94DB42C054B44 /* Build configuration list for PBXNativeTarget "VcomKeyboard" */;
+			buildConfigurationList = 1BEAEE238A2784024479A4347D49DEB9 /* Build configuration list for PBXNativeTarget "VcomKeyboard-VcomKeyboard" */;
 			buildPhases = (
-				35ED40E4506C9B8638907172E58D2C88 /* Headers */,
-				CF20A2DC91B7F91B3DEC76A04B1527E5 /* Sources */,
-				71AFEE6902FF9422A075122C919C0167 /* Frameworks */,
-				82443D7F4698A7A69744D40FF13F4BBD /* Resources */,
+				7A2100885F7815955CEA32FB734D5B36 /* Sources */,
+				7CD761B8356F50EB674D4605C7E4F3A5 /* Frameworks */,
+				3BD62E2D223FF681A3940C6C48D89C79 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "VcomKeyboard-VcomKeyboard";
+			productName = VcomKeyboard;
+			productReference = 6AC5952AF58112A164C7D89EBC42EA75 /* VcomKeyboard-VcomKeyboard */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7CE178C6A5E13DE1D7C2B0162399E1FE /* VcomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59391C4D646417F092D4132E24CA01C /* Build configuration list for PBXNativeTarget "VcomKeyboard" */;
+			buildPhases = (
+				6367D173FE0946D978EA34107F67CC30 /* Headers */,
+				6E2EF1C23043C796AD3C5E05966D4696 /* Sources */,
+				F0B2A23E5A04B59700FCF6983105F266 /* Frameworks */,
+				16C3717219A0A8B39C77070ACC1DC7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9234E0FD566A7F3B609E3184E5E84CCA /* PBXTargetDependency */,
 			);
 			name = VcomKeyboard;
 			productName = VcomKeyboard;
@@ -547,7 +551,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C36F6217048F715DE35487A79E70A30C /* PBXTargetDependency */,
+				F9D07F45FBB73EABB20E466BAB116C6D /* PBXTargetDependency */,
 			);
 			name = "Pods-VcomKeyboard_Example";
 			productName = Pods_VcomKeyboard_Example;
@@ -572,7 +576,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E30F21A72AA65D077585AB5C0CF192B2 /* Products */;
+			productRefGroup = BC2A54D328FA308062F02F044EA3863E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -580,6 +584,7 @@
 				DE56409E2A424BA64A90ECB7366CB620 /* Pods-VcomKeyboard_Example */,
 				16B069249285EFA843851D970F80F8FA /* Pods-VcomKeyboard_Tests */,
 				7CE178C6A5E13DE1D7C2B0162399E1FE /* VcomKeyboard */,
+				5AA32A49FD8DCF7CE304F7DBB9E36D6C /* VcomKeyboard-VcomKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -592,6 +597,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		16C3717219A0A8B39C77070ACC1DC7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC8C68CF708E15E0E283368A5C7352B /* VcomKeyboard-VcomKeyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -599,10 +612,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82443D7F4698A7A69744D40FF13F4BBD /* Resources */ = {
+		3BD62E2D223FF681A3940C6C48D89C79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49B5C099042B0E20658202C4252E75D /* Keyboard.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,38 +630,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6E2EF1C23043C796AD3C5E05966D4696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C985DD3611CDE95B88C649FB77B08D /* ASCIIKeyboard.swift in Sources */,
+				2AFC88FDE972F3212B6ED35E76380D4A /* CustomKeyboardView.swift in Sources */,
+				EEE629A371DEB59A63168C23E84E048D /* KeyboardButton.swift in Sources */,
+				0F63536EB2E11B7967D9911EF35FF037 /* KeyboardDefine.swift in Sources */,
+				FF3A05DF3F42D252B2F6DD88F457C66E /* NumberKeyboard.swift in Sources */,
+				BE60E486D514FD39E650A8C31A1BEA13 /* SymbolKeyboard.swift in Sources */,
+				58AD6650A832B244660DDD31B02BABC2 /* UIColor+Keyboard.swift in Sources */,
+				988F16FB0D8FF92A2844EF7E24C7CE7E /* UIImage+Keyboard.swift in Sources */,
+				7F472894D84D24E03129A47CD3B2941C /* UIResponder+EMFirstResponder.m in Sources */,
+				2367D406F888D1AD6C342B67768B9DCB /* VcomKeyboard-dummy.m in Sources */,
+				74828C532BDA22CC183234B07B7AA4B3 /* WebNumberKeyboard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2100885F7815955CEA32FB734D5B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ADC718C4D62241ACA9D23FAE7F45084C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				845E934E127A0F0F51E249F6DA0AFD5B /* Pods-VcomKeyboard_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF20A2DC91B7F91B3DEC76A04B1527E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68F6F76A951EAE870383843322C7F5AA /* ASCIIKeyboard.swift in Sources */,
-				F6D86A9607BC53E7901A1E64E1B1220C /* button_backspace_delete@2x.png in Sources */,
-				07643A152410A222A737F2E0A3D3119E /* button_backspace_delete@3x.png in Sources */,
-				0C3870FA7C02E53D7C00FE146D175EDB /* button_keyboard_shouqi@2x.png in Sources */,
-				CF3B9D8391E62E30712F25C49E55FFED /* button_keyboard_shouqi@3x.png in Sources */,
-				B6CD50E6E2A6A710F36CCA19F24BF732 /* CH_EN_icon_sel@2x.png in Sources */,
-				466D9DBBC58AF3CBF62F964E3A63CD76 /* CH_EN_icon_sel@3x.png in Sources */,
-				A6F5593101A7BA4648039A29E505D61D /* CH_EN_icon_unsel@2x.png in Sources */,
-				D83921F6E3365A6951C9E389FA95E945 /* CH_EN_icon_unsel@3x.png in Sources */,
-				74BB7675A02DF98E50D9F3C2CAA79587 /* CustomKeyboardView.swift in Sources */,
-				0A940E35EBF04327744BBE660E87E115 /* keyboard_safe@2x.png in Sources */,
-				1B4D2E3A337DAAA584CC758C8A3E2CE9 /* KeyboardButton.swift in Sources */,
-				E31949E7DD649FE4EBEADA1AF81C4713 /* KeyboardDefine.swift in Sources */,
-				EDA93A37D7F3915568D61DDEF14986CC /* NumberKeyboard.swift in Sources */,
-				4E851125D66B3E50149D2D680C8077D0 /* SymbolKeyboard.swift in Sources */,
-				36EB19684E344A40A4307527B018E62A /* UIColor+Keyboard.swift in Sources */,
-				84F4CF35BD8D0619F13025166BCA7C73 /* UIImage+Keyboard.swift in Sources */,
-				ED19E01C3782929C0607A32A6E2E1970 /* UIResponder+EMFirstResponder.m in Sources */,
-				B4D020A7F8284F67FB64E4866341F283 /* VcomKeyboard-dummy.m in Sources */,
-				EC09B95943A5EBEBA28805AFB001F8CD /* WebNumberKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,23 +690,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		68FB654142F1B2148D8FB5543AEB6EEE /* PBXTargetDependency */ = {
+		02E8E0E21A439E8692122F82CBB575EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-VcomKeyboard_Example";
 			target = DE56409E2A424BA64A90ECB7366CB620 /* Pods-VcomKeyboard_Example */;
-			targetProxy = 87AF3867958400229FBE4A39B886B188 /* PBXContainerItemProxy */;
+			targetProxy = F17BE0301D84C0BA1B662889380DE059 /* PBXContainerItemProxy */;
 		};
-		9EDB40358F0D30AB4E122C773AF24BBE /* PBXTargetDependency */ = {
+		56AF85C975C0BA59E16C17B5D859DF89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 9CDD1DEF5AC05F209430CEC2904EBC9C /* PBXContainerItemProxy */;
+			targetProxy = D01A2E6E487FF3939A84F1BD64E6051B /* PBXContainerItemProxy */;
 		};
-		C36F6217048F715DE35487A79E70A30C /* PBXTargetDependency */ = {
+		9234E0FD566A7F3B609E3184E5E84CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VcomKeyboard-VcomKeyboard";
+			target = 5AA32A49FD8DCF7CE304F7DBB9E36D6C /* VcomKeyboard-VcomKeyboard */;
+			targetProxy = 8D63AEEDFAD6765B44A9EE84D82BB37C /* PBXContainerItemProxy */;
+		};
+		F9D07F45FBB73EABB20E466BAB116C6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VcomKeyboard;
 			target = 7CE178C6A5E13DE1D7C2B0162399E1FE /* VcomKeyboard */;
-			targetProxy = 9FB1E58201E10F5F667C7D3EF107DCC6 /* PBXContainerItemProxy */;
+			targetProxy = 13ACB118C4B847DBF4239E7487399DB6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -828,37 +846,6 @@
 			};
 			name = Debug;
 		};
-		59D27C1D7F1C19FBC4B89C35016F1912 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB9A05C71FD379A162C208A6D96012B0 /* VcomKeyboard.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VcomKeyboard/VcomKeyboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VcomKeyboard/VcomKeyboard-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VcomKeyboard/VcomKeyboard.modulemap";
-				PRODUCT_MODULE_NAME = VcomKeyboard;
-				PRODUCT_NAME = VcomKeyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5A7930BA79AE38721D165190AD802B5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77A9944E5C01312DD5BB1F38CD73A191 /* Pods-VcomKeyboard_Tests.release.xcconfig */;
@@ -892,9 +879,25 @@
 			};
 			name = Release;
 		};
-		6BC3010091DBD1B7F5223B4D420613F0 /* Debug */ = {
+		5FB263E7CD8C61286CA965B6110A2508 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EAE16BA920DCD44CADFD08A416141F6 /* VcomKeyboard.debug.xcconfig */;
+			baseConfigurationReference = 2F883620AE75E9BB8BA78A9AC3DB3644 /* VcomKeyboard.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VcomKeyboard";
+				IBSC_MODULE = VcomKeyboard;
+				INFOPLIST_FILE = "Target Support Files/VcomKeyboard/ResourceBundle-VcomKeyboard-VcomKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = VcomKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6A996396E2F19F00E8C768261424D44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0879B81D67A30A4CD75AD3BB751301A /* VcomKeyboard.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -978,6 +981,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B62AC76258A4F9A51AD308B61F5C061B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F883620AE75E9BB8BA78A9AC3DB3644 /* VcomKeyboard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VcomKeyboard/VcomKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VcomKeyboard/VcomKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VcomKeyboard/VcomKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = VcomKeyboard;
+				PRODUCT_NAME = VcomKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1079,9 +1113,34 @@
 			};
 			name = Debug;
 		};
+		D5FF8138BB5E2A463E4DD5D5916F429B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0879B81D67A30A4CD75AD3BB751301A /* VcomKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VcomKeyboard";
+				IBSC_MODULE = VcomKeyboard;
+				INFOPLIST_FILE = "Target Support Files/VcomKeyboard/ResourceBundle-VcomKeyboard-VcomKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = VcomKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1BEAEE238A2784024479A4347D49DEB9 /* Build configuration list for PBXNativeTarget "VcomKeyboard-VcomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FF8138BB5E2A463E4DD5D5916F429B /* Debug */,
+				5FB263E7CD8C61286CA965B6110A2508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1100,15 +1159,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DE171A7232D4F28E3A94DB42C054B44 /* Build configuration list for PBXNativeTarget "VcomKeyboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6BC3010091DBD1B7F5223B4D420613F0 /* Debug */,
-				59D27C1D7F1C19FBC4B89C35016F1912 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BA6877291E81036B780C2B11CA92CA2E /* Build configuration list for PBXNativeTarget "Pods-VcomKeyboard_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1123,6 +1173,15 @@
 			buildConfigurations = (
 				D2B977FEB671EF6A9E4350615C0B6222 /* Debug */,
 				AE6B0D2ACCB980A82739411EF26D0B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59391C4D646417F092D4132E24CA01C /* Build configuration list for PBXNativeTarget "VcomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A996396E2F19F00E8C768261424D44D /* Debug */,
+				B62AC76258A4F9A51AD308B61F5C061B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
