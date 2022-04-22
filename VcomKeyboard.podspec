@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VcomKeyboard'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = '这事一个测试库啊'
 
 # This description is used to generate tags and improve search results.
